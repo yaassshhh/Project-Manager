@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 // set your username & password:-  'mongodb+srv://<username>:<password>@<cluster_name>.jqzujwt.mongodb.net/<dbname(optional)>?retryWrites=true&w=majority
 
 mongoose.set('strictQuery', true);
-mongoose.connect('mongodb+srv://sujalshah:sujalshah@cluster0.bedxbdb.mongodb.net/Minor?retryWrites=true&w=majority').then(() => console.log("MongoDB is connected")).catch((error) => console.log(error));
+mongoose.connect('#').then(() => console.log("MongoDB is connected")).catch((error) => console.log(error));
 
 
 const cors = require('cors')
